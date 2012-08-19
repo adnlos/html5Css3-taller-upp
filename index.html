@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+	<title>Sitio con Responsive Web Desing con Html, Css3 y Jquery</title>
+	<meta charset = "utf-8"/>
+	<meta name = "description" content="sitio hecho en Html5"/>
+	<meta name = "viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
+	<link rel="author" type="text/plain" href="humans.txt"/>
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="http://platform.twitter.com/widgets.js"></script>
+	<script src="http://connect.facebook.net/es_LA/all.js#xfbml=1"></script>
+	<script type="text/javascript">
+		// Can also be used with $(document).ready()
+		$(window).load(function() {
+		  $('.flexslider').flexslider({
+		    animation: "slide"
+		  });
+		});
+
+	</script>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html">
+				<img class="fade" alt="Pagina de adnlos" src="img/logo.png" width="220px" height="150px"/>
+			</a>
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="acerca.html">Acerca</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li><a href="trabajos.html">Trabajos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section id="contenido">
+		<section id="principal">
+			<article id="galeria-inicio">
+				<div class="flexslider">
+				  <ul class="slides">
+				    <li>
+				    	<a href="http://github.com/adnlos"><img height="300px" width="200px"  src="img/github.png"></a>
+				    	<p class="flex-caption"> mi cuenta de github aún no tiene muchas cosas pero se esta trabajando en ello.</p>
+				    </li>
+				    <li>
+				      <img height="300px" width="200px" src="img/dvd.png" />
+				      <p class="flex-caption"> Un disco</p>
+				    </li>
+				    <li>
+				    	<a href="http://twitter.com/adnlos"><img height="300px" width="200px"  src="img/cloud.png" /></a>
+				    </li>
+				    <li>
+				      <img height="300px" width="200px"  src="img/insagram.png" />
+				    </li>
+				  </ul>
+				</div>
+			</article>
+		</section>
+		<aside>
+			<!-- Twitter -->
+			<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://twitter.com/adnlos" data-text="Visita este nuevo sitio" data-via="adnlos" data-lang="es" data-dnt="true" data-count = "vertical">Twittear</a>
+			<br/><br/>
+			<!-- Facebook -->
+			<div id="fb-root"></div>
+			<fb:like href="https://facebook.com/adnlos" send="false" layout="box_count" show-faces="false" font="tahoma" width="
+			75px"></fb:like> 
+			<br/><br/>
+			<!-- Publicidad -->
+			<figure>
+				<a href="http://facebook.com/adnlos" target = "_blank" class="fade">
+					<img src="img/appstore.png" width="150px" height="150px"> </img>
+					<figcaption>explanatory caption</figcaption>
+				</a>
+				
+			</figure>
+		</aside>
+	</section>
+	<footer>
+		Html5, CSS3, Responsive Web Desing y Jquery <a rel="author" href="http://twitter.com/adnlos" target="_blank">@adnlos</a> 
+	</footer>
+</body>
+</html>

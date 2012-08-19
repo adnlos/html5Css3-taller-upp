@@ -1,0 +1,10 @@
+/*adnlos.com | pagina principal de Adan. http://adnlos.com */
+
+/* TEAM */
+	creator: Adan Gomez Quintanilla
+	contact: small_los [at] hotmail.com
+	twitter: @adnlos
+	from: Actopan Hgo, México.
+
+/* THANKS */
+	aqui unas gracias a mi mami que me hiso de comer :)
